@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <title>Gilt Redux</title>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="shortcut" href="favicon.ico"/>
+
+    <link rel="stylesheet" href="css/screen.css"/>
+
+<!-- @if NODE_ENV == 'dev' -->
+    <script type="text/javascript" src="components/modernizr/modernizr.js"></script>
+    <script type="text/javascript" src="components/react/react.min.js"></script>
+<!-- @endif -->
+    
+</head>
+
+<body>
+
+    <div id="example"></div>
+
+<!-- @if NODE_ENV == 'dev' -->
+
+    <script src="components/jquery/jquery.min.js"></script>
+    <script src="components/underscore/underscore-min.js"></script>
+    <script src="components/backbone/backbone-min.js"></script>
+    
+    <!-- <script src="components/lodash/dist/lodash.min.js"></script> -->
+    <!-- <script src="components/hammerjs/dist/jquery.hammer.min.js"></script> -->
+    <!-- <script src="components/SimpleStateManager/dist/ssm.min.js"></script> -->
+
+    <script src="js/gilt.test.js"></script>
+
+<!-- @endif -->
+
+<!-- @if NODE_ENV == 'dist' -->
+
+<!-- @endif -->
+
+</body>
+</html>
