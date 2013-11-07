@@ -1,0 +1,8 @@
+*DS_Store
+*node_modules
+*components
+*_dist
+*_dev
+*.sass-cache*
+src/app/style/css/*
+*npm-debug.log

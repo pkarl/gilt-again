@@ -1,0 +1,21 @@
+{
+  "name": "gilt-again",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pkarl/gilt-again",
+  "authors": [
+    "pkarl <pete.karl@gmail.com>"
+  ],
+  "description": "a learning site that uses gilt.com as fodder",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.*"
+  }
+}
